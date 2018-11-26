@@ -5,10 +5,10 @@ const port = process.env.PORT || 3000
 const mysql = require('mysql')
 const connection = mysql.createConnection({
     host:'127.0.0.1',
-    port:'8889',
+    port:'3306',
     user:'root',
-    password:'root',
-    database:'cadastro'
+    password:'',
+    database:'crud-igor'
 })
 
 const dependencies = {
